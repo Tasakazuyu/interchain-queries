@@ -1,4 +1,3 @@
-```
 cd $HOME && mkdir .icq
 sudo tee $HOME/.icq/config.yaml > /dev/null <<EOF
 default_chain: stride-testnet
@@ -18,4 +17,3 @@ chains:
     block-timeout: ""
     output-format: json
     sign-mode: direct
-```
