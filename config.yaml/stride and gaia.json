@@ -5,8 +5,8 @@ chains:
   gaia-testnet:
     key: wallet
     chain-id: GAIA
-    rpc-addr: http://127.0.0.1:23657      # use your own GAIA RPC endpoint here
-    grpc-addr: http://127.0.0.1:23090     # use your own GAIA GRPC endpoint here
+    rpc-addr: http://127.0.0.1:23657      # if you have your own GAIA RPC change it here
+    grpc-addr: http://127.0.0.1:23090     # if you have your own GAIA RPC change it here
     account-prefix: cosmos
     keyring-backend: test
     gas-adjustment: 1.2
@@ -20,8 +20,8 @@ chains:
   stride-testnet:
     key: wallet
     chain-id: STRIDE-TESTNET-4
-    rpc-addr: http://127.0.0.1:16657      # use your own Stride GRPC endpoint here
-    grpc-addr: http://127.0.0.1:16090     # use your own Stride GRPC endpoint here
+    rpc-addr: http://127.0.0.1:16657      # if you have your own Stride RPC change it here
+    grpc-addr: http://127.0.0.1:16090     # if you have your own Stride RPC change it here
     account-prefix: stride
     keyring-backend: test
     gas-adjustment: 1.2
